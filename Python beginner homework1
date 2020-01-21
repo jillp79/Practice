@@ -1,0 +1,32 @@
+input_test = input("enter food categories eaten in the last 24 hrs")
+if 'dairy' in input_test.lower():
+    print("It is True That "+input_test+" contains dairy")
+else:
+    print("It is False That "+input_test+" contains dairy")
+if 'nuts' in input_test.lower():
+    print("It is True That "+input_test+" contains nuts")
+else:
+    print("It is False That "+input_test+" contains nuts")
+if 'seafood' in input_test.lower():
+    print("It is True That "+input_test+" contains seafood")
+else:
+    print("It is False That "+input_test+" contains seafood")
+if 'chocolate' in input_test.lower():
+    print("It is True That "+input_test+" contains chocolate")
+else:
+    print("It is False That "+input_test+" contains chocolate")
+	
+	Mod 2 : 
+	fish_entry = input('Please enter fish type.')
+price_entry = input('Please enter price.')
+
+def fishstore(fish,price):
+    return 'Fish Type: '+fish+' costs $'+price
+
+result = fishstore(fish_entry,price_entry)
+print(result)
+	
+	
+	
+	seafood, dairy, nuts, and chocolate cake
+	seafood, nuts, and chocolate cake

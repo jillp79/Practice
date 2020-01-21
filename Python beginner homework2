@@ -1,0 +1,16 @@
+max = 112
+min = 0.16
+price = 7.99
+
+ 
+
+order_amount = float(input('Enter cheese order weight (numeric value) :'))
+
+ 
+
+if order_amount > max :
+    print(str(order_amount) +' is more than currently available stock')
+elif order_amount < min : 
+    print(str(order_amount) +' is below minimum order amount')
+else :
+    print(str(order_amount) +' costs $'+ str(order_amount * price))

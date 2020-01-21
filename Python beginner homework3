@@ -1,0 +1,21 @@
+
+    
+def str_analysis(charTypes):
+    while charTypes.lower() == "":
+        charTypes = input("Enter at least one character: ")
+    else:
+        if charTypes.isdigit():
+            if int(charTypes) > 99:
+                print(charTypes +" is a pretty big number")
+            elif int(charTypes) < 99:
+                print(charTypes +" is a smaller number than expected")
+        elif charTypes.isalpha():
+           print("\""+charTypes+"\" is all alphabetical characters!")
+        else:
+           print("\""+charTypes+"\" contains multiple character types.")
+
+
+str_analysis(input("Enter Word or Integer: "))
+
+
+
